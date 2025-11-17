@@ -57,6 +57,10 @@ struct ContentView: View {
 
 That's it! UnionChat handles scrolling, animations, keyboard management, and provides a beautiful, customizable interface out of the box.
 
+## Documentation
+
+Full documentation is available at [swiftipedia.org/documentation/union-chat](https://swiftipedia.org/documentation/union-chat)
+
 ## License
 
 See [LICENSE](LICENSE) for details.
