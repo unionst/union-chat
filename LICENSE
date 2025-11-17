@@ -1,0 +1,81 @@
+# UnionChat Commercial License v1.0
+
+Effective Date: November 12, 2025
+
+## 1. Definitions
+
+- **Licensor** means Union Street Studios, LLC.
+- **Software** means the UnionChat Swift package, including binaries, sample code, and documentation supplied by Licensor.
+- **Licensee** means the person or entity accepting this license.
+- **Production Application** means a Licensee-owned or Licensee-operated application distributed to Licensee’s end users.
+- **Contract Client** means a Licensee that receives the Software under a separate consulting or work-for-hire agreement with Licensor.
+
+## 2. License Grants
+
+### 2.1 SaaS Subscription Grant
+While the Licensee maintains an active paid subscription with Licensor, Licensor grants a non-exclusive, non-transferable license to:
+- Integrate the binary form of the Software into unlimited Production Applications the Licensee owns or operates.
+- Distribute those Production Applications to end users, provided the Software is embedded and not exposed for independent use.
+- Use internal tooling or staging environments as reasonably necessary to support Production Applications.
+
+### 2.2 Contract Client Grant
+If Licensee is a Contract Client, Licensor grants a perpetual, non-transferable license to:
+- Access and modify the source form of the Software for Licensee’s internal use, subject to the confidentiality obligations in Section 8.
+- Build derivative binaries for Licensee-owned Production Applications and distribute those binaries to Licensee’s end users.
+- Receive binary updates only to the extent provided under the applicable consulting agreement, maintenance plan, or separate written order. Licensor is not obligated to deliver future binary updates absent such agreement. Source-level updates require a separate agreement.
+
+### 2.3 Tailored Rights
+Contract Client rights supersede SaaS Subscription rights. Licensor may provide additional written terms for specific customers; those terms control in the event of a conflict.
+
+## 3. Restrictions
+
+Licensee must not:
+- Redistribute, sublicense, rent, lease, or host the Software for third parties outside of Licensee’s organization.
+- Provide the Software (source or binary) to any third party except as embedded in Licensee’s Production Applications.
+- Disclose, publish, or otherwise make available the source form of the Software or derivative works to anyone outside of Licensee’s organization, except to contractors or affiliates bound by written confidentiality obligations at least as protective as this agreement.
+- Use the Software to create or offer a general-purpose chat SDK, framework, or hosted service that competes directly with Licensor’s offerings without prior written consent.
+- Remove or obscure copyright notices.
+
+Contract Clients may modify source code internally but may not publish or open-source Licensor’s proprietary code or derivatives without written permission.
+
+## 4. Ownership
+
+Licensor retains all right, title, and interest in the Software and all updates. No ownership rights transfer to Licensee under this agreement.
+
+## 5. Updates and Support
+
+- Active SaaS subscribers receive binary updates and reasonable technical support during the subscription term.
+- Contract Clients receive binary updates solely as described in their consulting agreement, maintenance plan, or subsequent written order. Licensor may charge additional fees for continued update access.
+- Licensor may deliver new features, fixes, or breaking changes at its discretion.
+
+## 6. Fees and Payment
+
+- SaaS subscribers must maintain timely payment under the agreed subscription plan. Failure to pay results in automatic suspension of update access and license termination, subject to Section 7.
+- Contract Clients receive rights as defined in their consulting agreement. If that agreement specifies recurring fees, the terms therein control.
+
+## 7. Term and Termination
+
+- This license remains in effect until terminated.
+- Licensor may terminate the license immediately if Licensee breaches any term of this agreement and fails to cure the breach within 15 days of notice.
+- Upon termination, Licensee must cease distributing new versions of Production Applications containing the Software, but may continue operating already shipped versions for existing end users. Licensor may grant written exceptions.
+- Sections 3, 4, 7, 8, and 9 survive termination.
+
+## 8. Confidentiality
+
+Source code provided to Contract Clients is Licensor’s Confidential Information. Licensee must protect it with reasonable care, restrict access to personnel who need it for permitted uses, ensure such personnel are bound by nondisclosure obligations, and promptly notify Licensor of any unauthorized disclosure or use.
+
+## 9. Warranty Disclaimer and Limitation of Liability
+
+THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND. LICENSOR DISCLAIMS ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. TO THE EXTENT PERMITTED BY LAW, LICENSOR’S TOTAL LIABILITY FOR CLAIMS ARISING OUT OF OR RELATED TO THIS AGREEMENT IS LIMITED TO THE GREATER OF (A) AMOUNTS PAID BY LICENSEE IN THE 12 MONTHS PRECEDING THE CLAIM OR (B) ONE HUNDRED U.S. DOLLARS ($100).
+
+## 10. Governing Law
+
+This agreement is governed by the laws of the State of California, excluding conflict-of-laws principles. Venue for disputes lies exclusively in the state or federal courts located in San Francisco County, California, and both parties consent to personal jurisdiction there.
+
+## 11. Entire Agreement
+
+This license, together with any supplemental written terms executed between Licensor and Licensee, constitutes the entire agreement concerning the Software and supersedes all prior understandings. Amendments must be in writing and signed by both parties.
+
+By downloading, installing, or using the Software, Licensee agrees to these terms.
+
+
