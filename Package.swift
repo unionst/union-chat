@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "UnionChat",
-            url: "https://github.com/unionst/union-chat/releases/download/1.0.0/UnionChat.xcframework.zip",
+            url: "https://github.com/unionst/union-chat/releases/download/0.4.0/UnionChat.xcframework.zip",
             checksum: "REPLACE_WITH_ACTUAL_CHECKSUM"
         )
     ]
