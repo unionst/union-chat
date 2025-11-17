@@ -20,7 +20,7 @@ let package = Package(
         .binaryTarget(
             name: "UnionChat",
             url: "https://github.com/unionst/union-chat/releases/download/0.4.0/UnionChat.xcframework.zip",
-            checksum: "REPLACE_WITH_ACTUAL_CHECKSUM"
+            checksum: "226864d7385fa7e44065dad29305c819d63d42e65b7bace77f8502e28ff3cb2a"
         )
     ]
 )
