@@ -1,6 +1,6 @@
-# UnionChat (Binary Distribution)
+# UnionChat
 
-This repository contains the binary distribution of UnionChat as an XCFramework.
+A modern, flexible chat interface framework for iOS built with SwiftUI.
 
 ## Installation
 
@@ -18,10 +18,13 @@ Or add it in Xcode:
 1. File → Add Package Dependencies
 2. Enter: `https://github.com/unionst/union-chat.git`
 
-## Source Code
+## Features
 
-The source code for UnionChat is available at:
-https://github.com/unionst/union-chat-source
+- Modern SwiftUI-based chat interface
+- Customizable message bubbles and styling
+- Support for various message types and media
+- Smooth animations and interactions
+- Built on the Union design system
 
 ## License
 
