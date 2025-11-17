@@ -26,6 +26,29 @@ Or add it in Xcode:
 - Smooth animations and interactions
 - Built on the Union design system
 
+## Quick Start
+
+```swift
+import SwiftUI
+import UnionChat
+
+struct ContentView: View {
+    @State private var messages: [Message] = []
+    
+    var body: some View {
+        Chat(messages) { message in
+            Text(message.text)
+        }
+        .chatInput { text in
+            messages.append(Message(text: text, role: .user))
+        }
+        .chatStyle(.bubbles)
+    }
+}
+```
+
+That's it! UnionChat handles scrolling, animations, keyboard management, and provides a beautiful, customizable interface out of the box.
+
 ## License
 
 See [LICENSE](LICENSE) for details.
