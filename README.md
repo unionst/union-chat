@@ -32,17 +32,25 @@ Or add it in Xcode:
 import SwiftUI
 import UnionChat
 
+struct ChatMessage: Identifiable {
+    let id = UUID()
+    let text: String
+    let role: ChatRole
+    let timestamp: Date
+}
+
 struct ContentView: View {
-    @State private var messages: [Message] = []
+    @State private var messages: [ChatMessage] = []
     
     var body: some View {
         Chat(messages) { message in
-            Text(message.text)
+            Message(message.text, role: message.role, timestamp: message.timestamp)
         }
-        .chatInput { text in
-            messages.append(Message(text: text, role: .user))
+        .onChatSend { text, _ in
+            guard let text else { return }
+            messages.append(ChatMessage(text: text, role: .me, timestamp: Date()))
         }
-        .chatStyle(.bubbles)
+        .tint(.blue)
     }
 }
 ```
