@@ -59,7 +59,7 @@ That's it! UnionChat handles scrolling, animations, keyboard management, and pro
 
 ## Documentation
 
-Full documentation is available at [swiftipedia.org/documentation/union-chat](https://swiftipedia.org/documentation/union-chat)
+Full documentation is available at [swiftipedia.org/documentation/unionchat](https://www.swiftipedia.org/documentation/unionchat/)
 
 ## License
 
