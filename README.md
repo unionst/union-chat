@@ -1,6 +1,12 @@
+<div align="center">
+
 # UnionChat
 
-A SwiftUI-native iMessage replica SDK.
+SwiftUI-native iMessage replica SDK.
+
+<img src="assets/chat-light.png" width="300" alt="Chat interface">
+
+</div>
 
 ## Features
 
@@ -96,15 +102,6 @@ struct DemoMessage: ChatMessage {
 
 All modifiers are standard SwiftUI extensions, so they compose naturally with the rest of your view hierarchy.
 
-## Examples
-
-The `Sources/union-chat/Examples` folder includes:
-- `_ChatExample.swift` — interactive showcase with live message simulation
-- `Message.swift` — reference implementation of a `ChatMessage`
-- Previews for scroll-to-bottom button, typing indicators, and more
-
-Run the example target in Xcode to explore the full experience.
-
 ## Requirements
 
 - iOS 17.0+
@@ -114,11 +111,3 @@ Run the example target in Xcode to explore the full experience.
 ## Licensing
 
 UnionChat is distributed under the commercial license found in `LICENSE-COMMERCIAL.md`. SaaS subscribers receive binary access and updates while their subscription is active. Consulting clients retain perpetual internal-use rights to the source code delivered during their engagement and may receive future binary updates only as specified in their consulting or maintenance agreement. Redistributing the source or binaries outside your organization is prohibited. Contact hello@unionst.com to discuss alternative terms or evaluate source access.
-
-## Architecture
-
-- SwiftUI API (`Chat`) manages configuration and composition.
-- UIKit-powered `ChatView` drives collection view rendering, layout, and keyboard handling.
-- Shared environment values wire up modifiers, input configuration, scroll state, and read receipts.
-
-This hybrid approach keeps the API declarative while delivering smooth animations, predictable scrolling, and resilience for large transcripts.
