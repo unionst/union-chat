@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "UnionChatBinary",
-            url: "https://github.com/unionst/union-chat/releases/download/0.7.0/UnionChat.xcframework.zip",
-            checksum: "15848caeb851d5d20c9ba2012ed687c114a55be6de5fc4a0a0a622d273feac97"
+            url: "https://github.com/unionst/union-chat/releases/download/0.7.1-beta.1/UnionChat.xcframework.zip",
+            checksum: "34ef26a5f9686eb15d123ea7c2c2c5c613d92fd85a429ebbb0f3eaf1c1ba9d35"
         )
     ]
 )
