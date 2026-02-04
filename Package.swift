@@ -10,11 +10,9 @@ let package = Package(
     products: [
         .library(
             name: "UnionChat",
-            targets: ["UnionChatWrapper"])
+            targets: ["UnionChatWrapper", "UnionChatBinary"])
     ],
     dependencies: [
-        .package(url: "https://github.com/unionst/union-materials.git", .upToNextMajor(from: "1.0.0")),
-        .package(url: "https://github.com/unionst/union-buttons.git", .upToNextMajor(from: "2.0.0")),
         .package(url: "https://github.com/onevcat/Kingfisher.git", from: "8.0.0")
     ],
     targets: [
@@ -22,16 +20,14 @@ let package = Package(
             name: "UnionChatWrapper",
             dependencies: [
                 "UnionChatBinary",
-                .product(name: "UnionMaterials", package: "union-materials"),
-                .product(name: "UnionButtons", package: "union-buttons"),
                 .product(name: "Kingfisher", package: "Kingfisher")
             ],
             path: "Sources/UnionChatWrapper"
         ),
         .binaryTarget(
             name: "UnionChatBinary",
-            url: "https://github.com/unionst/union-chat/releases/download/0.7.1-beta.15/UnionChat.xcframework.zip",
-            checksum: "6f96db0bcd843cc07a944ac111b2b40f106781b48fcf5829f4bc52be51828f52"
+            url: "https://github.com/unionst/union-chat/releases/download/0.7.1-beta.17/UnionChat.xcframework.zip",
+            checksum: "f42abc99f633e1262c55e437a1a305232168ba98837dad274b66bde7b9cc7565"
         )
     ]
 )
