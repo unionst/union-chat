@@ -1,0 +1,30 @@
+# Swift Chat
+
+> The Messages app, as a SwiftUI view. Swift Chat is an iOS 18+ Swift package by Union St that renders an iMessage-faithful chat transcript from your own message models: bubble tails, typing indicators, delivery and read receipts, attachments, keyboard handling, pagination, group chats, dark mode.
+
+Install: https://github.com/unionst/swift-chat.git (product "SwiftChat"). `import SwiftChat`. Formerly UnionChat; `import UnionChat` still works.
+
+## Docs
+
+- [Full reference](https://swiftchat.app/llms-full.txt): every initializer and modifier with examples
+- [README](https://github.com/unionst/swift-chat#readme): quick start and feature list
+- [API documentation](https://www.swiftipedia.org/documentation/unionchat): generated symbol docs
+- [Website](https://swiftchat.app)
+
+## Minimal example
+
+```swift
+import SwiftUI
+import SwiftChat
+
+Chat(messages) { message in
+    Message(message.text, role: message.role, timestamp: message.sentAt)
+        .messageStatus(message.status)
+}
+.chatTypingIndicators(typing)
+.chatInputPlaceholder("iMessage")
+.chatInputCapabilities([.photoLibrary, .files])
+.onChatSend { text, media in
+    await conversation.send(text, media)
+}
+```
