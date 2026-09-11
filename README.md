@@ -44,7 +44,7 @@ Or add it to `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/unionst/swift-chat.git", from: "0.7.0")
+    .package(url: "https://github.com/unionst/swift-chat.git", from: "1.0.0")
 ],
 targets: [
     .target(
@@ -244,7 +244,7 @@ Swift Chat was previously published as UnionChat. The package keeps a `UnionChat
 
 ## License
 
-Swift Chat ships as a binary Swift package under the terms in [LICENSE](LICENSE). Teams that want source access, custom terms, or help integrating can write to [hello@unionst.com](mailto:hello@unionst.com).
+Swift Chat is free to use in any app, including commercial ones, and ships as a closed-source binary the same way Apple distributes its own frameworks. See [LICENSE](LICENSE) for the short version of what that means. Teams that want source access or custom terms can write to [hello@unionst.com](mailto:hello@unionst.com).
 
 <div align="center">
 
